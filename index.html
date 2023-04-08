@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coding Quiz</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <nav>View Highscores</nav>
+    <div class="timer">
+      <p>Time: </p>
+      <div class="counter">0</div>
+    </div>
+    <div class="start">Coding Quiz Challenge
+      <p>Try to answer the following code related questions</p>
+      <button class="start-button">Start Quiz</button>
+    </div>
+      <div class="quiz" style="display: none">
+        <div class="question"></div>
+        <div class="choicess">
+          <div class=" choice" id="A" onclick="checkAnswer('A')">A</div>
+          <div class=" choice" id="B" onclick="checkAnswer('B')">B</div>
+          <div class=" choice" id="C" onclick="checkAnswer('C')">C</div>
+          <div class=" choice" id="D" onclick="checkAnswer('D')">D</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
